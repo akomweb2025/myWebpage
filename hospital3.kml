@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>hospital3.kml</name>
+	<Schema name="hospital3" id="S_hospital3_IIIIIIS">
+		<SimpleField type="int" name="DOCTOR"><displayName>&lt;b&gt;DOCTOR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="DENTIST"><displayName>&lt;b&gt;DENTIST&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="PHARMACI"><displayName>&lt;b&gt;PHARMACI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="NURSE"><displayName>&lt;b&gt;NURSE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="NURSE_TECH"><displayName>&lt;b&gt;NURSE_TECH&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="BEDS"><displayName>&lt;b&gt;BEDS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NAME_E"><displayName>&lt;b&gt;NAME_E&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>DOCTOR</b></td><td>$[hospital3/DOCTOR]</td></tr>
+  <tr><td><b>DENTIST</b></td><td>$[hospital3/DENTIST]</td></tr>
+  <tr><td><b>PHARMACI</b></td><td>$[hospital3/PHARMACI]</td></tr>
+  <tr><td><b>NURSE</b></td><td>$[hospital3/NURSE]</td></tr>
+  <tr><td><b>NURSE_TECH</b></td><td>$[hospital3/NURSE_TECH]</td></tr>
+  <tr><td><b>BEDS</b></td><td>$[hospital3/BEDS]</td></tr>
+  <tr><td><b>NAME_E</b></td><td>$[hospital3/NAME_E]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>DOCTOR</b></td><td>$[hospital3/DOCTOR]</td></tr>
+  <tr><td><b>DENTIST</b></td><td>$[hospital3/DENTIST]</td></tr>
+  <tr><td><b>PHARMACI</b></td><td>$[hospital3/PHARMACI]</td></tr>
+  <tr><td><b>NURSE</b></td><td>$[hospital3/NURSE]</td></tr>
+  <tr><td><b>NURSE_TECH</b></td><td>$[hospital3/NURSE_TECH]</td></tr>
+  <tr><td><b>BEDS</b></td><td>$[hospital3/BEDS]</td></tr>
+  <tr><td><b>NAME_E</b></td><td>$[hospital3/NAME_E]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>hospital3</name>
+		<open>1</open>
+		<Placemark>
+			<name>Thung Yang Daeng Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">2</SimpleData>
+					<SimpleData name="DENTIST">1</SimpleData>
+					<SimpleData name="PHARMACI">3</SimpleData>
+					<SimpleData name="NURSE">20</SimpleData>
+					<SimpleData name="NURSE_TECH">20</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Thung Yang Daeng Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.4280835104897,6.617847250978879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sai Buri Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">6</SimpleData>
+					<SimpleData name="DENTIST">3</SimpleData>
+					<SimpleData name="PHARMACI">4</SimpleData>
+					<SimpleData name="NURSE">41</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Sai Buri Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.6205377994808,6.696155954018801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yarang Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">6</SimpleData>
+					<SimpleData name="DENTIST">2</SimpleData>
+					<SimpleData name="PHARMACI">3</SimpleData>
+					<SimpleData name="NURSE">27</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Yarang Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.2926452057786,6.752504248982638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mayo Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">4</SimpleData>
+					<SimpleData name="DENTIST">3</SimpleData>
+					<SimpleData name="PHARMACI">3</SimpleData>
+					<SimpleData name="NURSE">25</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">10</SimpleData>
+					<SimpleData name="NAME_E">Mayo Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.4186233570907,6.720141542807894,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mae Lan Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">2</SimpleData>
+					<SimpleData name="DENTIST">1</SimpleData>
+					<SimpleData name="PHARMACI">2</SimpleData>
+					<SimpleData name="NURSE">19</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">10</SimpleData>
+					<SimpleData name="NAME_E">Mae Lan Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.2424535727949,6.659408813709584,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Khok Pho Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">6</SimpleData>
+					<SimpleData name="DENTIST">3</SimpleData>
+					<SimpleData name="PHARMACI">4</SimpleData>
+					<SimpleData name="NURSE">47</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">60</SimpleData>
+					<SimpleData name="NAME_E">Khok Pho Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.1155993407745,6.732583826330898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nong Chick Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">5</SimpleData>
+					<SimpleData name="DENTIST">2</SimpleData>
+					<SimpleData name="PHARMACI">4</SimpleData>
+					<SimpleData name="NURSE">27</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Nong Chick Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.177299310238,6.838030910818578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yaring Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">3</SimpleData>
+					<SimpleData name="DENTIST">2</SimpleData>
+					<SimpleData name="PHARMACI">4</SimpleData>
+					<SimpleData name="NURSE">27</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Yaring Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.3774624188793,6.856056856866806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mai Kaen Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">3</SimpleData>
+					<SimpleData name="DENTIST">1</SimpleData>
+					<SimpleData name="PHARMACI">2</SimpleData>
+					<SimpleData name="NURSE">16</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">10</SimpleData>
+					<SimpleData name="NAME_E">Mai Kaen Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.6651453751193,6.611616703271794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ka Pho Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">2</SimpleData>
+					<SimpleData name="DENTIST">1</SimpleData>
+					<SimpleData name="PHARMACI">4</SimpleData>
+					<SimpleData name="NURSE">14</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">10</SimpleData>
+					<SimpleData name="NAME_E">Ka Pho Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.5463910557137,6.571567607794568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panare Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">4</SimpleData>
+					<SimpleData name="DENTIST">2</SimpleData>
+					<SimpleData name="PHARMACI">3</SimpleData>
+					<SimpleData name="NURSE">24</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">30</SimpleData>
+					<SimpleData name="NAME_E">Panare Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.4863552301167,6.840257336023416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Ingkhayutthaborihan Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">0</SimpleData>
+					<SimpleData name="DENTIST">0</SimpleData>
+					<SimpleData name="PHARMACI">0</SimpleData>
+					<SimpleData name="NURSE">0</SimpleData>
+					<SimpleData name="NURSE_TECH">0</SimpleData>
+					<SimpleData name="BEDS">60</SimpleData>
+					<SimpleData name="NAME_E">Fort Ingkhayutthaborihan Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.1466213268772,6.790317144639308,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pattani Hospital</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_hospital3_IIIIIIS">
+					<SimpleData name="DOCTOR">37</SimpleData>
+					<SimpleData name="DENTIST">4</SimpleData>
+					<SimpleData name="PHARMACI">12</SimpleData>
+					<SimpleData name="NURSE">17</SimpleData>
+					<SimpleData name="NURSE_TECH">96</SimpleData>
+					<SimpleData name="BEDS">355</SimpleData>
+					<SimpleData name="NAME_E">Pattani Hospital</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>101.2506800572834,6.868040316971911,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>
